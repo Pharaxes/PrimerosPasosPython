@@ -15,6 +15,12 @@ print(f"Valor: {es_estudiante}, tipo: {type(es_estudiante)}")
 complejo = complex(2, 3)
 print(f"Valor: {complejo}, tipo: {type(complejo)}")
 
+valor = None
+print(f"Valor: {valor}, tipo: {type(valor)}")
+
+nan = float("nan")
+print(f"Valor: {nan}, tipo: {type(nan)}")
+
 print("#### ESTRUCTURAS DE DATOS ####")
 
 lista = ["manzana", "naranja", "mandarina", True, 15 ]
