@@ -6,7 +6,7 @@ estudiantes = []
 
 while True:
     
-    respuesta = input("Desea continuar? (S/N)")
+    respuesta = input("Desea continuar? (S/N):  ")
     if respuesta == "N":
         print("chau")
         break
