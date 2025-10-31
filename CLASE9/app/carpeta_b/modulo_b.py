@@ -7,5 +7,3 @@ def saludo_despido():
 
     mensaje_despedida = despedir("Martin")
     print(mensaje_despedida)
-
-saludo_despido()
