@@ -117,6 +117,8 @@ def funcion(a, b=1, *args, c, d=2, **kwargs):
 
     print("Parametros posicionales indefinidos/indeterminado/dinamicos (*args)")
     print(f"args: {args}")
+    print(type(args))
+    
 
     print("Parametros nombrados (keyword only)")
     print(f"c: {c}")
