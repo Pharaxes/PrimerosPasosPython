@@ -1,3 +1,142 @@
-__pycache__
-.vscode
+# ======================================
+# Django + Python + SQLite/MySQL .gitignore
+# ======================================
 
+# --- Python / compilados ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+cython_debug/
+
+# --- Entornos virtuales ---
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.env
+.env.*
+.envrc
+
+# --- Configuración / IDEs ---
+.idea/
+.vscode/
+.settings/
+.spyderproject
+.spyproject
+.ropeproject
+.pydevproject
+
+# --- Archivos temporales / logs ---
+*.log
+*.tmp
+tmp/
+temp/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Distribución / empaquetado ---
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Pruebas / coverage ---
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+.dmypy.json
+dmypy.json
+.mypy_cache/
+.pyre/
+.pytype/
+
+# --- Documentación / Sphinx / MkDocs ---
+docs/_build/
+.site/
+
+# --- Archivos de traducción ---
+*.mo
+*.pot
+
+# --- Archivos de entorno / dependencias ---
+.pdm-python
+.pdm-build/
+__pypackages__/
+.pixi/
+.ruff_cache/
+.pypirc
+
+# --- Django ---
+local_settings.py
+secrets.json
+
+# Base de datos SQLite
+# Descomentá si NO querés versionar tu base local
+# db.sqlite3
+# *.sqlite3
+db.sqlite3-journal
+
+# Archivos de migraciones (opcional)
+# */migrations/
+# !*/migrations/__init__.py
+
+# --- Archivos de caché / media / static ---
+staticfiles/
+static/
+media/
+__pycache__/
+
+# --- Archivos de sistema ---
+.DS_Store
+Thumbs.db
+
+# --- MySQL / Backups ---
+*.sql
+*.sql.gz
+*.dump
+*.bak
+
+# --- Docker / contenedores ---
+docker-compose*.yml
+Dockerfile
+/data/
+db_data/
+mysql/
+
+# --- Otros ---
+*.rej
+*.orig
+*.swo
+*.swn
+.cursorignore
+.cursorindexingignore
+.abstra/
+marimo/_static/
+marimo/_lsp/
+__marimo__/
